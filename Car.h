@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject {
++ (void)setDefaultModel:(NSString *)aModel;
 
 }
 
